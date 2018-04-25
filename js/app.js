@@ -6,7 +6,9 @@ app.config(['$routeProvider', function($routeProvider) {
   .when('/skills', {
     templateUrl: './views/skills.html'
   }).when('/projects', {
-    templateUrl: './views/projects'
+    templateUrl: './views/projects.html'
+  }).when('/contact', {
+    templateUrl:'./views/contact.html'
   }).otherwise({
     templateUrl: './views/about.html'
   })
