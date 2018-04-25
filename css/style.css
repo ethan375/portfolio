@@ -63,18 +63,9 @@ footer {
   width: 50px;
 }
 
-.pong{
-  display: inline-block;
+.project {
+  margin: 50px; 
 }
-
-.deepr {
-  display: inline-block;
-}
-
-.coins{
-  display: inline-block;
-}
-
 
 span {
   display: inline-block;
